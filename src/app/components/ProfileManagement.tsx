@@ -1,10 +1,8 @@
 import React from "react";
-import { BigHead } from "@bigheads/core";
 import { useUser } from "@/app/context/userprovider";
 import { useRouter } from "next/navigation";
 import { MdManageAccounts } from "react-icons/md";
 
-const av = <BigHead />;
 const ProfileManagement = ({ isOpen, toggle, name }: any) => {
   const { Logout } = useUser();
   const options = ["Sign Out"];

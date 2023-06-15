@@ -5,9 +5,9 @@ import "./globals.css";
 import { UserProvider } from "./context/userprovider";
 import { TodoProvider } from "./context/todoprovider";
 import ProtectedRoutes from "./utils/ProtectedRoutes";
-import Navbar from "./components/Navbar";
 import { nonNavbarRoutes } from "./utils/constants";
 import { usePathname } from "next/navigation";
+import Navbar from "./components/Navbar";
 
 export default function RootLayout({
   children,

@@ -1,10 +1,9 @@
 "use client";
 import constants, { NavigationOptions } from "@/app/utils/constants";
 import Link from "next/link";
-import { useRouter, usePathname } from "next/navigation";
-import React, { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
+import React, { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
-import { SiTodoist } from "react-icons/si";
 import ProfileManagement from "./ProfileManagement";
 import { useUser } from "@/app/context/userprovider";
 
