@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Jash Agrawal",
+    "email": "agrawaljash99@gmail.com",
+    "password": "Jash@123",
+    "todos": []
+  },
+  {
+    "id": 2,
+    "name": "Marquee Equity",
+    "email": "MarqueeEquity@gmail.com",
+    "password": "Marquee@123",
+    "todos": []
+  }
+]
