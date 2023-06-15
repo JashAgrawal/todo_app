@@ -7,7 +7,7 @@ import { TodoProvider } from "./context/todoprovider";
 import ProtectedRoutes from "./utils/ProtectedRoutes";
 import { nonNavbarRoutes } from "./utils/constants";
 import { usePathname } from "next/navigation";
-import Navbar from "@/app/components/Navbar";
+import Navbar from "@/app/comps/Navbar";
 
 export default function RootLayout({
   children,
