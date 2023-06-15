@@ -8,15 +8,6 @@ import ProtectedRoutes from "./utils/ProtectedRoutes";
 import Navbar from "./components/Navbar";
 import { nonNavbarRoutes } from "./utils/constants";
 import { usePathname } from "next/navigation";
-export const metadata = {
-  title: "Todo App",
-  description: "Conquer your list !",
-  icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
-  },
-};
 
 export default function RootLayout({
   children,

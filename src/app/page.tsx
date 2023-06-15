@@ -1,6 +1,14 @@
-import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Todo App",
+  description: "Conquer your list !",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
+};
 export default function Home() {
   return (
     <div className="flex flex-col space-y-8 p-12 justify-center items-center w-full h-full">
