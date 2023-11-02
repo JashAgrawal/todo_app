@@ -154,6 +154,7 @@ const login = () => {
                   sign in
                 </button>
               </div>
+              <div><Link href={"/auth/signup"} className="text-sm">Or Sign Up</Link></div>
 
               <div className="p-4 text-center right-0 left-0 flex justify-center space-x-4 mt-16 lg:hidden ">
                 <a href="#">

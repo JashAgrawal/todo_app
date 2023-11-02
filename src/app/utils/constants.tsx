@@ -87,4 +87,4 @@ export const NavigationOptions = [
   },
 ];
 
-export const nonNavbarRoutes = ["/auth/login"];
+export const nonNavbarRoutes = ["/auth/login", "/auth/signup"];

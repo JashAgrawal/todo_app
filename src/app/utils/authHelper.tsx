@@ -12,7 +12,7 @@ const signToken = async (payload: any) => {
       .setExpirationTime("1 day") // token expiration time, e.g., "1 day"
       .sign(secretKey); // secretKey generated from previous step
     return token;
-  } catch (err) {}
+  } catch (err) { }
 };
 
 const verifyToken = async (token: string) => {
@@ -25,10 +25,8 @@ const verifyToken = async (token: string) => {
         audience: "urn:example:audience",
       }
     );
-    console.log(protectedHeader);
-    console.log(payload);
     return { payload, protectedHeader };
-  } catch (err) {}
+  } catch (err) { }
 };
 
 export { signToken, verifyToken };
